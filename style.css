@@ -1,0 +1,24 @@
+/* globale variables */
+
+:root {
+    /* primary */
+    yellow: hsl(47, 88%, 63%);
+    /* Neutral */
+    White: hsl(0, 0%, 100%) ;
+    Grey: hsl(0, 0%, 50%) ;
+    Black: hsl(0, 0%, 7%);
+
+    /* Font size (paragraph)*/
+    size-p: 16px
+}
+/* global properties */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", serif;
+}
+/* starting */
+body{
+    background-color: yellow;
+}
